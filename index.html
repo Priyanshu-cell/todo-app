@@ -1,22 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Todo App</title>
-  <link rel="stylesheet" type="text/css" href="style.css" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo App</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div id="full-todo-container">
+      <h1 id="heading">Todo App</h1>
 
-</head>
-<body>
-
-  <h1 id="heading">  Todo App </h1>
-
-  <div class="grid-container">
-    <input id="todo-input" type="text" placeholder="Enter todo here">
-    <input id="todo-date" type="date">
-    <button class="btn-todo" onclick="addTodo();"> Add </button>
-  </div>
-  <div class="todo-container grid-container"></div>
-  <script src="script.js"></script>
-</body>
+      <div class="grid-container">
+        <input id="todo-input" type="text" placeholder="Enter todo here" />
+        <input id="todo-date" type="date" placeholder="Enter date here" />
+        <button class="btn-todo" onclick="addTodo();">Add</button>
+      </div>
+      <div class="todo-container grid-container"></div>
+      <script src="script.js"></script>
+    </div>
+  </body>
 </html>
